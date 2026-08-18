@@ -29,7 +29,7 @@ RUN mkdir -p \
 # Do not use /releases/latest API endpoint.
 RUN set -eux; \
     curl -fL \
-    "https://github.com/sh7CBAC/Heimdall/releases/latest/download/x-ui-linux-amd64.tar.gz" \
+    "https://github.com/MHSanaei/3x-ui/releases/download/v3.6.0/x-ui-linux-amd64.tar.gz" \
     -o /tmp/x-ui-linux-amd64.tar.gz; \
     file /tmp/x-ui-linux-amd64.tar.gz; \
     tar -xzf /tmp/x-ui-linux-amd64.tar.gz -C /usr/local/; \
